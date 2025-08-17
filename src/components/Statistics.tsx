@@ -15,7 +15,7 @@ const Statistics = forwardRef<HTMLElement, object>((props, ref) => {
           Статистика з соцмереж:
         </h1>
         <div className="relative">
-          <div className="relative flex flex-col 970px:flex-row gap-10 970px:gap-25 items-center justify-center flex-wrap 4xl:gap-45">
+          <div className="relative flex flex-col-reverse 970px:flex-row gap-10 970px:gap-25 items-center justify-center flex-wrap 4xl:gap-45">
             {socialData.map((item, i) => (
               <div key={i} className="flex items-center gap-1 text-md font-bold sm:text-base">
                 <Image src={item.icon} alt="icon" width={60} height={60} className="4xl:w-[75px] w-[50px] 700px:w-[60px]" />

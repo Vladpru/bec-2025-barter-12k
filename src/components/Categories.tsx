@@ -97,7 +97,7 @@ const Categories = () => {
                 alt="Decorative line 3"
                 width={75}
                 height={65}
-                className="3xl:w-[85px] 4xl:w-[95px] lg:block hidden"
+                className="3xl:w-[85px] 4xl:w-[95px] lg:block hidden -z-1"
               />
               <div className="flex flex-col gap-3 justify-center 1160px:justify-between">
                 <h1 className="text-2xl 1160px:text-3xl font-black uppercase 3xl:text-4xl 4xl:text-5xl">Team design</h1>
@@ -113,11 +113,11 @@ const Categories = () => {
               </div>
             </div>
             <Image
-              src="/images/categories/text-divider-horizontal.svg" 
+              src="/footer/gort-cat.svg" 
               alt="Decorative line 3"
               width={225}
               height={60}
-              className="lg:hidden xs:w-[440px] sm:w-[500px] my-5 w-[350px]"
+              className="lg:hidden xs:w-[440px] sm:w-[500px] my-5 w-[350px] -z-10"
             />
             <div className="flex max-w-[400px] sm:max-w-[600px] lg:max-w-[700px] 3xl:max-w-[800px] 4xl:max-w-[900px] z-10">
               <Image
@@ -125,7 +125,7 @@ const Categories = () => {
                 alt="Decorative line 3"
                 width={75}
                 height={60}
-                className="3xl:w-[85px] 4xl:w-[95px] lg:block hidden"
+                className="3xl:w-[85px] 4xl:w-[95px] lg:block hidden -z-1"
               />
               <div className="flex flex-col gap-3 justify-center 1160px:justify-between">
                 <h1 className="text-2xl 1160px:text-3xl font-black uppercase 3xl:text-4xl 4xl:text-5xl">Innovative design</h1>

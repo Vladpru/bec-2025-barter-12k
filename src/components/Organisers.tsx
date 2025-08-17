@@ -11,7 +11,7 @@
       <section className='940px:mt-40 mt-20 940px:mb-7 mb-8'>
         <div className="container mb-20 relative 4xl:mb-40">
           <h1 className="text-center text-2xl 700px:text-5xl text-bec font-black mb-15 uppercase">Про організаторів події</h1>
-          <div className="flex 1060px:justify-around 1060px:flex-row flex-col 1060px:gap-0 700px:gap-20 gap-10 justify-center items-center">
+          <div className="flex flex-col-reverse 1060px:justify-around 1060px:flex-row 1060px:gap-0 700px:gap-20 gap-10 justify-center items-center">
             <p className='max-w-[500px] 660px:w-full w-[360px] 440px:w-[380px] text-lg 3xl:text-xl 3xl:mt-10 4xl:text-2xl 4xl:max-w-[700px]'>
               
               <span className='font-bold'>BEST Lviv (Board of European Students of Technology)</span> – осередок міжнародної неприбуткової громадської організації, який об’єднує студентів технічних спеціальностей. 
@@ -53,7 +53,7 @@
           />
           <div className="flex flex-col gap-3 440px:gap-7 660px:gap-10 w-[500px] justify-center text-center pt-13 700px:pt-0 700px:mr-30">
             <div className="flex flex-col gap-2 660px:gap-5">
-              <h1 className={`${awide.className} text-3xl 660px:text-4xl 1162px:text-5xl text-bec`}>84</h1>
+              <h1 className={`${awide.className} text-3xl 660px:text-4xl 1162px:text-5xl text-bec`}>83</h1>
               <p className='text-2xl 660px:text-3xl 1162px:text-5xl'>осередки</p>
             </div>
             <div className="flex flex-col gap-2 660px:gap-5">
